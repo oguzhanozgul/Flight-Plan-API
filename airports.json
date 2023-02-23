@@ -1,0 +1,398 @@
+[
+  {
+    "id":1084,
+    "name":"Léopold Sédar Senghor International Airport",
+    "code":"DKR",
+    "city":"Dakar",
+    "country":"Senegal",
+    "images":{
+      "small":"/small/dkr.jpg",
+      "large":"/full/dkr.jpg"
+      },
+    "averageRating":4.3
+  },
+  {
+    "id":3941,
+    "name":"Eleftherios Venizelos International Airport",
+    "code":"ATH",
+    "city":"Athens",
+    "country":"Greece",
+    "images":{
+      "small":"/small/ath.jpg",
+      "large":"/full/ath.jpg"
+      },
+    "averageRating":4.8
+  },
+  {
+    "id":3520,
+    "name":"Ronald Reagan Airport",
+    "code":"DCA",
+    "city":"Washington",
+    "country":"United States",
+    "images":{
+      "small":"/small/dca.jpg",
+      "large":"/full/dca.jpg"
+      },
+    "averageRating":4
+  },
+  {
+    "id":679,
+    "name":"Warsaw Chopin Airport",
+    "code":"WAW",
+    "city":"Warsaw",
+    "country":"Poland",
+    "images":{
+      "small":"/small/waw.jpg",
+      "large":"/full/waw.jpg"
+      },
+    "averageRating":4.7
+  },
+  {
+    "id":1551,
+    "name":"Marco Polo Airport",
+    "code":"VCE",
+    "city":"Venice",
+    "country":"Italy",
+    "images":{
+      "small":"/small/vce.jpg",
+      "large":"/full/vce.jpg"
+      },
+    "averageRating":4.9
+  },
+  {
+    "id":1335,
+    "name":"Saint-Exupéry Airport",
+    "code":"LYS",
+    "city":"Lyon",
+    "country":"France",
+    "images":{
+      "small":"/small/lys.jpg",
+      "large":"/full/lys.jpg"
+      },
+    "averageRating":4.2
+  },
+  {
+    "id":2564,
+    "name":"Guarulhos - Governador Airport",
+    "code":"GRU",
+    "city":"Sao Paulo",
+    "country":"Brazil",
+    "images":{
+      "small":"/small/gru.jpg",
+      "large":"/full/gru.jpg"
+      },
+    "averageRating":5
+  },
+  {
+    "id":3077,
+    "name":"Hong Kong International Airport",
+    "code":"HKG",
+    "city":"Hong Kong",
+    "country":"Hong Kong",
+    "images":{
+      "small":"/small/hkg.jpg",
+      "large":"/full/hkg.jpg"
+      },
+    "averageRating":4.4
+  },
+  {
+    "id":599,
+    "name":"Dublin Airport",
+    "code":"DUB",
+    "city":"Dublin",
+    "country":"Ireland",
+    "images":{
+      "small":"/small/dub.jpg",
+      "large":"/full/dub.jpg"
+      },
+    "averageRating":4
+  },
+  {
+    "id":503,
+    "name":"London Country Airport",
+    "code":"LCY",
+    "city":"London",
+    "country":"United Kingdom",
+    "images":{
+      "small":"/small/lcy.jpg",
+      "large":"/full/lcy.jpg"
+      },
+    "averageRating":4.9
+  },
+  {
+    "id":248,
+    "name":"Accra-Kotoka International Airport",
+    "code":"ACC",
+    "city":"Accra-Kotoka",
+    "country":"Ghana",
+    "images":{
+      "small":"/small/acc.jpg",
+      "large":"/full/acc.jpg"
+      },
+    "averageRating":4.2
+  },
+  {
+    "id":507,
+    "name":"Heathrow Airport",
+    "code":"LHR",
+    "city":"London",
+    "country":"United Kingdom",
+    "images":{
+      "small":"/small/lhr.jpg",
+      "large":"/full/lhr.jpg"
+      },
+    "averageRating":4.3
+  },
+  {
+    "id":1218,
+    "name":"Barcelona International Airport",
+    "code":"BCN",
+    "city":"Barcelona",
+    "country":"Spain",
+    "images":{
+      "small":"/small/bcn.jpg",
+      "large":"/full/bcn.jpg"
+      },
+    "averageRating":5
+  },
+  {
+    "id":1665,
+    "name":"Cointrin International Airport",
+    "code":"GVA",
+    "city":"Geneva",
+    "country":"Switzerland",
+    "images":{
+      "small":"/small/gva.jpg",
+      "large":"/full/gva.jpg"
+      },
+    "averageRating":4.7
+  },
+  {
+    "id":1452,
+    "name":"Heraklion International Nikos Kaz. Airport",
+    "code":"HER",
+    "city":"Heraklion",
+    "country":"Greece",
+    "images":{
+      "small":"/small/her.jpg",
+      "large":"/full/her.jpg"
+      },
+    "averageRating":4.7
+  },
+  {
+    "id":1587,
+    "name":"Václav Havel Airport",
+    "code":"PRG",
+    "city":"Prague",
+    "country":"Czech Republic",
+    "images":{
+      "small":"/small/prg.jpg",
+      "large":"/full/prg.jpg"
+      },
+    "averageRating":4.3
+  },
+  {
+    "id":3930,
+    "name":"Incheon International Airport",
+    "code":"ICN",
+    "city":"Seoul",
+    "country":"South Korea",
+    "images":{
+      "small":"/small/icn.jpg",
+      "large":"/full/icn.jpg"
+      },
+    "averageRating":4.1
+  },
+  {
+    "id":3380,
+    "name":"Chinggis Khaan International Airport",
+    "code":"ULN",
+    "city":"Ulan Bator",
+    "country":"Mongolia",
+    "images":{
+      "small":"/small/uln.jpg",
+      "large":"/full/uln.jpg"
+      },
+    "averageRating":4
+  },
+  {
+    "id":3885,
+    "name":"Suvarnabhumi Airport",
+    "code":"BKK",
+    "city":"Bangkok",
+    "country":"Thailand",
+    "images":{
+      "small":"/small/bkk.jpg",
+      "large":"/full/bkk.jpg"
+      },
+    "averageRating":4.8
+  },
+  {
+    "id":2939,
+    "name":"Boryspil International Airport",
+    "code":"KBP",
+    "city":"Kiev",
+    "country":"Ukraine",
+    "images":{
+      "small":"/small/kbp.jpg",
+      "large":"/full/kbp.jpg"
+      },
+    "averageRating":4.7
+  },
+  {
+    "id":2188,
+    "name":"Dubai International Airport",
+    "code":"DXB",
+    "city":"Dubai",
+    "country":"United Arab Emirates",
+    "images":{
+      "small":"/small/dxb.jpg",
+      "large":"/full/dxb.jpg"
+      },
+    "averageRating":5
+  },
+  {
+    "id":2985,
+    "name":"Sheremetyevo International Airport",
+    "code":"SVO",
+    "city":"Moscow",
+    "country":"Russia",
+    "images":{
+      "small":"/small/svo.jpg",
+      "large":"/full/svo.jpg"
+      },
+    "averageRating":4.6
+  },
+  {
+    "id":7447,
+    "name":"Hammamet International Airport",
+    "code":"NBE",
+    "city":"Enfidha",
+    "country":"Tunisia",
+    "images":{
+      "small":"/small/nbe.jpg",
+      "large":"/full/nbe.jpg"
+      },
+    "averageRating":4.5
+  },
+  {
+    "id":346,
+    "name":"Munich Airport",
+    "code":"MUC",
+    "city":"Munich",
+    "country":"Germany",
+    "images":{
+      "small":"/small/muc.jpg",
+      "large":"/full/muc.jpg"
+      },
+    "averageRating":4.1
+  },
+  {
+    "id":1590,
+    "name":"Ben Gurion International Airport",
+    "code":"TLV",
+    "city":"Tel-aviv",
+    "country":"Israel",
+    "images":{
+      "small":"/small/tlv.jpg",
+      "large":"/full/tlv.jpg"
+      },
+    "averageRating":4.1
+  },
+  {
+    "id":609,
+    "name":"Kastrup Airport",
+    "code":"CPH",
+    "city":"Copenhagen",
+    "country":"Denmark",
+    "images":{
+      "small":"/small/cph.jpg",
+      "large":"/full/cph.jpg"
+      },
+    "averageRating":4.6
+  },
+  {
+    "id":644,
+    "name":"Oslo Lufthavn Airport",
+    "code":"OSL",
+    "city":"Oslo",
+    "country":"Norway",
+    "images":{
+      "small":"/small/osl.jpg",
+      "large":"/full/osl.jpg"
+      },
+    "averageRating":4
+  },
+  {
+    "id":1382,
+    "name":"Charles de Gaulle International Airport",
+    "code":"CDG",
+    "city":"Paris",
+    "country":"France",
+    "images":{
+      "small":"/small/cdg.jpg",
+      "large":"/full/cdg.jpg"
+      },
+    "averageRating":5
+  },
+  {
+    "id":421,
+    "name":"Vantaa Airport",
+    "code":"HEL",
+    "city":"Helsinki",
+    "country":"Finland",
+    "images":{
+      "small":"/small/hel.jpg",
+      "large":"/full/hel.jpg"
+      },
+    "averageRating":4.7
+  },
+  {
+    "id":3361,
+    "name":"Kingsford Smith International Airport",
+    "code":"SYD",
+    "city":"Sydney",
+    "country":"Australia",
+    "images":{
+      "small":"/small/syd.jpg",
+      "large":"/full/syd.jpg"
+      },
+    "averageRating":4.6
+  },
+  {
+    "id":2009,
+    "name":"Christchurch International Airport",
+    "code":"CHC",
+    "city":"Christchurch",
+    "country":"New Zealand",
+    "images":{
+      "small":"/small/chc.jpg",
+      "large":"/full/chc.jpg"
+      },
+    "averageRating":4.1
+  },
+  {
+    "id":1960,
+    "name":"Nadi International Airport",
+    "code":"NAN",
+    "city":"Nandi",
+    "country":"Fiji",
+    "images":{
+      "small":"/small/nan.jpg",
+      "large":"/full/nan.jpg"
+      },
+    "averageRating":4
+  },
+  {
+    "id":3484,
+    "name":"Los Angeles International Airport",
+    "code":"LAX",
+    "city":"Los Angeles",
+    "country":"United States",
+    "images":{
+      "small":"/small/lax.jpg",
+      "large":"/full/lax.jpg"
+      },
+    "averageRating":4.8
+    }
+  ]
