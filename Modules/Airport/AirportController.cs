@@ -1,5 +1,5 @@
-using System.Security.Claims;
 using FlightPlanApi.Dtos.Airport;
+using FlightPlanApi.Services.AirportService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlightPlanApi.Controllers
@@ -8,11 +8,11 @@ namespace FlightPlanApi.Controllers
   [Route("api/[controller]")]
   public class AirportController : ControllerBase
   {
-    private readonly IAirportServiceService _airportService;
+    private readonly IAirportService _airportService;
 
     public AirportController(IAirportService airportService)
     {
-      _airportServiceService = airportService;
+      _airportService = airportService;
     }
 
 

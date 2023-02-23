@@ -1,6 +1,6 @@
 namespace FlightPlanApi.Dtos.Connection
 {
-  public class AttackResultDto
+  public class GetConnectionsDto
   {
     public string Connections { get; set; } = string.Empty;
   }

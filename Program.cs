@@ -1,6 +1,4 @@
 global using FlightPlanApi.Models;
-global using FlightPlanApi.Services.AirportService;
-global using Microsoft.EntityFrameworkCore;
 
 using FlightPlanApi.Services.AirportService;
 using FlightPlanApi.Services.ConnectionService;

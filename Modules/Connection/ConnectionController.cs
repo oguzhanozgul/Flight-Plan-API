@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using FlightPlanApi.Dtos.Connection;
 using FlightPlanApi.Services.ConnectionService;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +16,7 @@ namespace FlightPlanApi.Controllers
     }
 
     [HttpGet("Connections")]
-    public async Task<ActionResult<ServiceResponse<List<HighScoreDto>>>> GetConnections()
+    public async Task<ActionResult<ServiceResponse<string>>> GetConnections()
     {
       return Ok(await _connectionService.GetConnections());
     }
