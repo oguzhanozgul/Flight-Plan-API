@@ -1,5 +1,5 @@
 using System.Security.Claims;
-using FlightPlanApi.Dtos.Character;
+using FlightPlanApi.Dtos.Airport;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlightPlanApi.Controllers
@@ -17,16 +17,16 @@ namespace FlightPlanApi.Controllers
 
 
     [HttpGet("GetAll")]
-    public async Task<ActionResult<ServiceResponse<List<GetCharacterDto>>>> GetAll()
+    public async Task<ActionResult<ServiceResponse<List<GetAirportDto>>>> GetAll()
     {
-      return Ok(await _characterService.GetAllCharacters());
+      return Ok(await _airportService.GetAllAirports());
     }
 
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<ServiceResponse<GetCharacterDto>>> GetSingle(int id)
+    public async Task<ActionResult<ServiceResponse<GetAirportDto>>> GetSingle(int id)
     {
-      return Ok(await _characterService.GetCharacterById(id));
+      return Ok(await _airportService.GetAirportById(id));
     }
 
   }

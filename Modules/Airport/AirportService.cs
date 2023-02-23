@@ -20,7 +20,7 @@ namespace FlightPlanApi.Services.AirportService
     {
       var serviceResponse = new ServiceResponse<List<GetAirportsDto>>();
       var dbCharacters = await _dataContext.Characters
-        .Include(c => c.Weapon)
+        .Include(c => c.Connection)
         .Include(c => c.Skills)
         .Where(c => c.User!.Id == GetUserId())
         .ToListAsync();
@@ -38,7 +38,7 @@ namespace FlightPlanApi.Services.AirportService
       try
       {
         var dbCharacter = await _dataContext.Characters
-          .Include(c => c.Weapon)
+          .Include(c => c.Connection)
           .Include(c => c.Skills)
           .Where(c => c.User!.Id == GetUserId())
           .FirstOrDefaultAsync(c => c.Id == id); // veya .FirstOrDefaultAsync(c => c.Id == id && c.User!.Id == GetUserId()); de olur.

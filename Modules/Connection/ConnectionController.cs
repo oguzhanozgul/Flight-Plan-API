@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FlightPlanApi.Dtos.Fight;
-using FlightPlanApi.Services.FightService;
+using FlightPlanApi.Dtos.Connection;
+using FlightPlanApi.Services.ConnectionService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FlightPlanApi.Controllers

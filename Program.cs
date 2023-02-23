@@ -1,9 +1,9 @@
 global using FlightPlanApi.Models;
-global using FlightPlanApi.Services.CharacterService;
+global using FlightPlanApi.Services.AirportService;
 global using Microsoft.EntityFrameworkCore;
 
-using FlightPlanApi.Services.WeaponService;
-using FlightPlanApi.Services.FightService;
+using FlightPlanApi.Services.AirportService;
+using FlightPlanApi.Services.ConnectionService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,9 +14,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-builder.Services.AddScoped<ICharacterService, CharacterService>();
-builder.Services.AddScoped<IWeaponService, WeaponService>();
-builder.Services.AddScoped<IFightService, FightService>();
+builder.Services.AddScoped<IAirportService, AirportService>();
+builder.Services.AddScoped<IConnectionService, ConnectionService>();
+
 
 builder.Services.AddHttpContextAccessor();
 
