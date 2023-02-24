@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FlightPlanApi.Controllers
 {
   [ApiController]
-  [Route("api/[controller]")]
+  [Route("[controller]")]
   public class AirportController : ControllerBase
   {
     private readonly IAirportService _airportService;
@@ -16,7 +16,7 @@ namespace FlightPlanApi.Controllers
     }
 
 
-    [HttpGet("GetAll")]
+    [HttpGet()]
     public ActionResult<ServiceResponse<List<GetAirportDto>>> GetAll()
     {
       return Ok(_airportService.GetAllAirports());
