@@ -14,6 +14,6 @@ namespace FlightPlanApi.Models
     public string City { get; set; } = string.Empty;
     public string Country { get; set; } = string.Empty;
     public Images? Images { get; set; }
-    public int AverageRating { get; set; } = 0;
+    public float AverageRating { get; set; } = 0;
   }
 }

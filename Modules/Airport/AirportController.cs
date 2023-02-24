@@ -22,12 +22,5 @@ namespace FlightPlanApi.Controllers
       return Ok(_airportService.GetAllAirports());
     }
 
-
-    [HttpGet("{id}")]
-    public ActionResult<ServiceResponse<GetAirportDto>> GetSingle(int id)
-    {
-      return Ok(_airportService.GetAirportById(id));
-    }
-
   }
 }

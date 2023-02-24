@@ -5,8 +5,6 @@ namespace FlightPlanApi.Services.AirportService
 {
   public interface IAirportService
   {
-    ServiceResponse<List<GetAirportsDto>> GetAllAirports();
-    ServiceResponse<GetAirportDto> GetAirportById(int id);
-
+    ServiceResponse<List<GetAirportDto>> GetAllAirports();
   }
 }
