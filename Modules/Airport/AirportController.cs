@@ -17,16 +17,16 @@ namespace FlightPlanApi.Controllers
 
 
     [HttpGet("GetAll")]
-    public async Task<ActionResult<ServiceResponse<List<GetAirportDto>>>> GetAll()
+    public ActionResult<ServiceResponse<List<GetAirportDto>>> GetAll()
     {
-      return Ok(await _airportService.GetAllAirports());
+      return Ok(_airportService.GetAllAirports());
     }
 
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<ServiceResponse<GetAirportDto>>> GetSingle(int id)
+    public ActionResult<ServiceResponse<GetAirportDto>> GetSingle(int id)
     {
-      return Ok(await _airportService.GetAirportById(id));
+      return Ok(_airportService.GetAirportById(id));
     }
 
   }

@@ -4,6 +4,6 @@ namespace FlightPlanApi.Services.ConnectionService
 {
   public interface IConnectionService
   {
-    Task<ServiceResponse<string>> GetConnections();
+    ServiceResponse<string> GetConnections();
   }
 }

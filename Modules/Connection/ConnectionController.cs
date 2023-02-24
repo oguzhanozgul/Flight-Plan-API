@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FlightPlanApi.Controllers
 {
   [ApiController]
-  [Route("[controller]")]
+  [Route("api/[controller]")]
   public class ConnectionController : ControllerBase
   {
     private readonly IConnectionService _connectionService;
@@ -15,10 +15,10 @@ namespace FlightPlanApi.Controllers
       _connectionService = connectionService;
     }
 
-    [HttpGet("Connections")]
-    public async Task<ActionResult<ServiceResponse<string>>> GetConnections()
+    [HttpGet]
+    public ActionResult<ServiceResponse<string>> GetConnections()
     {
-      return Ok(await _connectionService.GetConnections());
+      return Ok(_connectionService.GetConnections());
     }
   }
 }

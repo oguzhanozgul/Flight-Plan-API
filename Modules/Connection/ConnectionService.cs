@@ -4,17 +4,12 @@ namespace FlightPlanApi.Services.ConnectionService
 {
   public class ConnectionService : IConnectionService
   {
-    public async Task<ServiceResponse<string>> GetConnections()
+    public ServiceResponse<string> GetConnections()
     {
-      var airport = await _dataContext.Airports
-        .Where(c => c.Connections > 0)
-        .OrderByDescending(c => c.Victories)
-        .ThenBy(c => c.Defeats)
-        .ToListAsync();
 
-      var serviceResponse = new ServiceResponse<List<HighScoreDto>>()
+      var serviceResponse = new ServiceResponse<string>()
       {
-        Data = airports.Select(c => _mapper.Map<HighScoreDto>(c)).ToList(),
+        Data = File.ReadAllText(@"../../Data/connections.txt"),
       };
 
       return serviceResponse;
