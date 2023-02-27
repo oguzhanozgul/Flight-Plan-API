@@ -25,6 +25,8 @@ ENTRYPOINT ["dotnet", "FlightPlanAPI.dll"]
 #
 # to run, run:
 # docker run --rm --publish 5555:5000 --name flight-plan-api flight-plan-api
+# or
+# docker compose up
 #
 # on Windows 10, if you get the following error:
 # docker: Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5555 -> 0.0.0.0:0: listen tcp 0.0.0.0:5555: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
