@@ -1,0 +1,7 @@
+name: testAction
+on: [ push ]
+jobs:
+  write-to-console:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hi Oz"
