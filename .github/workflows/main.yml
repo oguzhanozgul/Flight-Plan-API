@@ -68,16 +68,9 @@ jobs:
           key: ${{ secrets.VPS_SSH_SECRET }}
           # SSH port
           port: ${{ secrets.VPS_SSH_PORT }}
-          # script: |
-          #   echo "Pull new image"
-          #   docker-compose -f /home/${{ secrets.VPS_SSH_USERNAME }}/node-docker-deploy/docker-compose.yml pull
-          #   echo "Restart the container"
-          #   docker-compose -f /home/${{ secrets.VPS_SSH_USERNAME }}/node-docker-deploy/docker-compose.yml up --force-recreate --build --no-deps -d
-          #   echo "Delete old image"
-          #   docker image prune -f
           script: |
             echo "Logging in to ghrc.io"
-            docker login ghcr.io -u oguzhanozgul -p ${{ secrets.GITHUB_TOKEN }}
+            echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u oguzhanozgul --password-stdin
             echo "Pulling new image"
             docker pull ghcr.io/oguzhanozgul/flight-plan-api:master
             echo "Stopping container if already running"
