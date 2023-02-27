@@ -24,7 +24,7 @@ ENTRYPOINT ["dotnet", "FlightPlanAPI.dll"]
 # docker build --tag flight-plan-api .
 #
 # to run, run:
-# docker run --rm --publish 5555:5000 --name flight-plan-api flight-plan-api
+# docker run --rm -d --publish 5555:5000 --name flight-plan-api flight-plan-api
 # or
 # docker compose up
 #
