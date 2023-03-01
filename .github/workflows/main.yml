@@ -72,10 +72,10 @@ jobs:
             echo "Logging in to ghrc.io"
             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u oguzhanozgul --password-stdin
             echo "Pulling new image"
-            docker pull ghcr.io/oguzhanozgul/flight-plan-api:master
+            docker pull ghcr.io/oguzhanozgul/flight-plan-api:main
             echo "Stopping container if already running"
             docker stop flight-plan-api
             echo "Starting container"
-            docker run --rm -d --publish 5555:5000 --name flight-plan-api ghcr.io/oguzhanozgul/flight-plan-api:master
+            docker run --rm -d --publish 5555:5000 --name flight-plan-api ghcr.io/oguzhanozgul/flight-plan-api:main
             echo "Deleting image"
-            docker rmi ghcr.io/oguzhanozgul/flight-plan-api:master -f
+            docker rmi ghcr.io/oguzhanozgul/flight-plan-api:main -f
