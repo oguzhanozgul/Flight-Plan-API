@@ -16,7 +16,7 @@ namespace FlightPlanApi.Controllers
     }
 
     [HttpGet]
-    public ActionResult<ServiceResponse<List<Dictionary<int, int[]>>>> GetConnections()
+    public ActionResult<ServiceResponse<Dictionary<string, int[]>>> GetConnections()
     {
       return Ok(_connectionService.GetConnections());
     }

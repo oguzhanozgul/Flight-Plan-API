@@ -4,6 +4,6 @@ namespace FlightPlanApi.Services.ConnectionService
 {
   public interface IConnectionService
   {
-    ServiceResponse<List<Dictionary<int, int[]>>> GetConnections();
+    ServiceResponse<Dictionary<string, int[]>> GetConnections();
   }
 }
