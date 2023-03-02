@@ -1,6 +1,4 @@
-using FlightPlanApi.Dtos.Connection;
-
-namespace FlightPlanApi.Services.ConnectionService
+namespace FlightPlanApi.Connection
 {
   public interface IConnectionService
   {

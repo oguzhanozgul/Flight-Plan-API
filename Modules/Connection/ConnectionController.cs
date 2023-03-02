@@ -1,8 +1,6 @@
-using FlightPlanApi.Dtos.Connection;
-using FlightPlanApi.Services.ConnectionService;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FlightPlanApi.Controllers
+namespace FlightPlanApi.Connection
 {
   [ApiController]
   [Route("[controller]")]

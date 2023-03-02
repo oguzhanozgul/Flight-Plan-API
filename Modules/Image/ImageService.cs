@@ -1,10 +1,11 @@
 using System.Text.Json;
+using FlightPlanApi.Image;
 
-namespace FlightPlanApi.Connection
+namespace FlightPlanApi.Image
 {
-  public class ConnectionService : IConnectionService
+  public class ImageService : IImageService
   {
-    public ServiceResponse<Dictionary<string, int[]>> GetConnections()
+    public ServiceResponse<Dictionary<string, int[]>> GetImage()
     {
 
       var path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "data/connections.json");

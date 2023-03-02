@@ -1,8 +1,6 @@
-using FlightPlanApi.Dtos.Airport;
-using FlightPlanApi.Services.AirportService;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FlightPlanApi.Controllers
+namespace FlightPlanApi.Airports
 {
   [ApiController]
   [Route("[controller]")]

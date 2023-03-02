@@ -1,6 +1,5 @@
 using AutoMapper;
-using FlightPlanApi.Dtos.Airport;
-
+using FlightPlanApi.Airports;
 namespace FlightPlanApi
 {
   public class AutoMapperProfile : Profile

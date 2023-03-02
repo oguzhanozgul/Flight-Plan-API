@@ -1,7 +1,8 @@
 global using FlightPlanApi.Models;
 
-using FlightPlanApi.Services.AirportService;
-using FlightPlanApi.Services.ConnectionService;
+using FlightPlanApi.Airports;
+using FlightPlanApi.Connection;
+using FlightPlanApi.Image;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 

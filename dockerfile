@@ -12,8 +12,8 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine AS prod-env
 WORKDIR /App
 COPY --from=build-env /App/out .
-RUN mkdir ./Data/Images
-COPY ./Data/Images ./Data/Images
+RUN mkdir ./data/images
+COPY ./data/images ./data/images
 
 # Set the internal port to 5000 (from the default 80 set by dotnet)
 ENV ASPNETCORE_URLS=http://+:5000

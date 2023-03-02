@@ -1,7 +1,4 @@
-
-using FlightPlanApi.Dtos.Airport;
-
-namespace FlightPlanApi.Services.AirportService
+namespace FlightPlanApi.Airports
 {
   public interface IAirportService
   {

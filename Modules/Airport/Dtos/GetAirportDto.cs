@@ -1,4 +1,4 @@
-namespace FlightPlanApi.Dtos.Airport
+namespace FlightPlanApi.Airports
 {
   public class GetAirportDto
   {
