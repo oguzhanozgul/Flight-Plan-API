@@ -6,17 +6,20 @@ namespace FlightPlanApi.Image
   [Route("[controller]")]
   public class ImageController : ControllerBase
   {
-    private readonly IImageService _imageService;
-
-    public ImageController(IImageService imageService)
+    [HttpGet("small/{name}")]
+    public ActionResult<string> GetSmallImage(string name)
     {
-      _imageService = imageService;
+      var path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, $"data/images/small/{name}");
+
+      return PhysicalFile(path, "image/jpg");
     }
 
-    [HttpGet]
-    public ActionResult<ServiceResponse<Dictionary<string, int[]>>> GetImage()
+    [HttpGet("full/{name}")]
+    public ActionResult<string> GetLargeImage(string name)
     {
-      return Ok(_imageService.GetImage());
+      var path = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, $"data/images/full/{name}");
+
+      return PhysicalFile(path, "image/jpg");
     }
   }
 }

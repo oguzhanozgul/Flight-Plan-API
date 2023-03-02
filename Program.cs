@@ -26,6 +26,7 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 builder.Services.AddScoped<IAirportService, AirportService>();
 builder.Services.AddScoped<IConnectionService, ConnectionService>();
+// builder.Services.AddScoped<IImageService, ImageService>();
 
 
 builder.Services.AddHttpContextAccessor();
