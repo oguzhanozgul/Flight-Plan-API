@@ -6,8 +6,8 @@
     "City":"Dakar",
     "Country":"Senegal",
     "Images":{
-      "Small":"/small/dkr.jpg",
-      "Large":"/full/dkr.jpg"
+      "Small":"image/small/dkr.jpg",
+      "Large":"image/full/dkr.jpg"
       },
     "AverageRating":4.3
   },
@@ -18,8 +18,8 @@
     "City":"Athens",
     "Country":"Greece",
     "Images":{
-      "Small":"/small/ath.jpg",
-      "Large":"/full/ath.jpg"
+      "Small":"image/small/ath.jpg",
+      "Large":"image/full/ath.jpg"
       },
     "AverageRating":4.8
   },
@@ -30,8 +30,8 @@
     "City":"Washington",
     "Country":"United States",
     "Images":{
-      "Small":"/small/dca.jpg",
-      "Large":"/full/dca.jpg"
+      "Small":"image/small/dca.jpg",
+      "Large":"image/full/dca.jpg"
       },
     "AverageRating":4
   },
@@ -42,8 +42,8 @@
     "City":"Warsaw",
     "Country":"Poland",
     "Images":{
-      "Small":"/small/waw.jpg",
-      "Large":"/full/waw.jpg"
+      "Small":"image/small/waw.jpg",
+      "Large":"image/full/waw.jpg"
       },
     "AverageRating":4.7
   },
@@ -54,8 +54,8 @@
     "City":"Venice",
     "Country":"Italy",
     "Images":{
-      "Small":"/small/vce.jpg",
-      "Large":"/full/vce.jpg"
+      "Small":"image/small/vce.jpg",
+      "Large":"image/full/vce.jpg"
       },
     "AverageRating":4.9
   },
@@ -66,8 +66,8 @@
     "City":"Lyon",
     "Country":"France",
     "Images":{
-      "Small":"/small/lys.jpg",
-      "Large":"/full/lys.jpg"
+      "Small":"image/small/lys.jpg",
+      "Large":"image/full/lys.jpg"
       },
     "AverageRating":4.2
   },
@@ -78,8 +78,8 @@
     "City":"Sao Paulo",
     "Country":"Brazil",
     "Images":{
-      "Small":"/small/gru.jpg",
-      "Large":"/full/gru.jpg"
+      "Small":"image/small/gru.jpg",
+      "Large":"image/full/gru.jpg"
       },
     "AverageRating":5
   },
@@ -90,8 +90,8 @@
     "City":"Hong Kong",
     "Country":"Hong Kong",
     "Images":{
-      "Small":"/small/hkg.jpg",
-      "Large":"/full/hkg.jpg"
+      "Small":"image/small/hkg.jpg",
+      "Large":"image/full/hkg.jpg"
       },
     "AverageRating":4.4
   },
@@ -102,8 +102,8 @@
     "City":"Dublin",
     "Country":"Ireland",
     "Images":{
-      "Small":"/small/dub.jpg",
-      "Large":"/full/dub.jpg"
+      "Small":"image/small/dub.jpg",
+      "Large":"image/full/dub.jpg"
       },
     "AverageRating":4
   },
@@ -114,8 +114,8 @@
     "City":"London",
     "Country":"United Kingdom",
     "Images":{
-      "Small":"/small/lcy.jpg",
-      "Large":"/full/lcy.jpg"
+      "Small":"image/small/lcy.jpg",
+      "Large":"image/full/lcy.jpg"
       },
     "AverageRating":4.9
   },
@@ -126,8 +126,8 @@
     "City":"Accra-Kotoka",
     "Country":"Ghana",
     "Images":{
-      "Small":"/small/acc.jpg",
-      "Large":"/full/acc.jpg"
+      "Small":"image/small/acc.jpg",
+      "Large":"image/full/acc.jpg"
       },
     "AverageRating":4.2
   },
@@ -138,8 +138,8 @@
     "City":"London",
     "Country":"United Kingdom",
     "Images":{
-      "Small":"/small/lhr.jpg",
-      "Large":"/full/lhr.jpg"
+      "Small":"image/small/lhr.jpg",
+      "Large":"image/full/lhr.jpg"
       },
     "AverageRating":4.3
   },
@@ -150,8 +150,8 @@
     "City":"Barcelona",
     "Country":"Spain",
     "Images":{
-      "Small":"/small/bcn.jpg",
-      "Large":"/full/bcn.jpg"
+      "Small":"image/small/bcn.jpg",
+      "Large":"image/full/bcn.jpg"
       },
     "AverageRating":5
   },
@@ -162,8 +162,8 @@
     "City":"Geneva",
     "Country":"Switzerland",
     "Images":{
-      "Small":"/small/gva.jpg",
-      "Large":"/full/gva.jpg"
+      "Small":"image/small/gva.jpg",
+      "Large":"image/full/gva.jpg"
       },
     "AverageRating":4.7
   },
@@ -174,8 +174,8 @@
     "City":"Heraklion",
     "Country":"Greece",
     "Images":{
-      "Small":"/small/her.jpg",
-      "Large":"/full/her.jpg"
+      "Small":"image/small/her.jpg",
+      "Large":"image/full/her.jpg"
       },
     "AverageRating":4.7
   },
@@ -186,8 +186,8 @@
     "City":"Prague",
     "Country":"Czech Republic",
     "Images":{
-      "Small":"/small/prg.jpg",
-      "Large":"/full/prg.jpg"
+      "Small":"image/small/prg.jpg",
+      "Large":"image/full/prg.jpg"
       },
     "AverageRating":4.3
   },
@@ -198,8 +198,8 @@
     "City":"Seoul",
     "Country":"South Korea",
     "Images":{
-      "Small":"/small/icn.jpg",
-      "Large":"/full/icn.jpg"
+      "Small":"image/small/icn.jpg",
+      "Large":"image/full/icn.jpg"
       },
     "AverageRating":4.1
   },
@@ -210,8 +210,8 @@
     "City":"Ulan Bator",
     "Country":"Mongolia",
     "Images":{
-      "Small":"/small/uln.jpg",
-      "Large":"/full/uln.jpg"
+      "Small":"image/small/uln.jpg",
+      "Large":"image/full/uln.jpg"
       },
     "AverageRating":4
   },
@@ -222,8 +222,8 @@
     "City":"Bangkok",
     "Country":"Thailand",
     "Images":{
-      "Small":"/small/bkk.jpg",
-      "Large":"/full/bkk.jpg"
+      "Small":"image/small/bkk.jpg",
+      "Large":"image/full/bkk.jpg"
       },
     "AverageRating":4.8
   },
@@ -234,8 +234,8 @@
     "City":"Kiev",
     "Country":"Ukraine",
     "Images":{
-      "Small":"/small/kbp.jpg",
-      "Large":"/full/kbp.jpg"
+      "Small":"image/small/kbp.jpg",
+      "Large":"image/full/kbp.jpg"
       },
     "AverageRating":4.7
   },
@@ -246,8 +246,8 @@
     "City":"Dubai",
     "Country":"United Arab Emirates",
     "Images":{
-      "Small":"/small/dxb.jpg",
-      "Large":"/full/dxb.jpg"
+      "Small":"image/small/dxb.jpg",
+      "Large":"image/full/dxb.jpg"
       },
     "AverageRating":5
   },
@@ -258,8 +258,8 @@
     "City":"Moscow",
     "Country":"Russia",
     "Images":{
-      "Small":"/small/svo.jpg",
-      "Large":"/full/svo.jpg"
+      "Small":"image/small/svo.jpg",
+      "Large":"image/full/svo.jpg"
       },
     "AverageRating":4.6
   },
@@ -270,8 +270,8 @@
     "City":"Enfidha",
     "Country":"Tunisia",
     "Images":{
-      "Small":"/small/nbe.jpg",
-      "Large":"/full/nbe.jpg"
+      "Small":"image/small/nbe.jpg",
+      "Large":"image/full/nbe.jpg"
       },
     "AverageRating":4.5
   },
@@ -282,8 +282,8 @@
     "City":"Munich",
     "Country":"Germany",
     "Images":{
-      "Small":"/small/muc.jpg",
-      "Large":"/full/muc.jpg"
+      "Small":"image/small/muc.jpg",
+      "Large":"image/full/muc.jpg"
       },
     "AverageRating":4.1
   },
@@ -294,8 +294,8 @@
     "City":"Tel-aviv",
     "Country":"Israel",
     "Images":{
-      "Small":"/small/tlv.jpg",
-      "Large":"/full/tlv.jpg"
+      "Small":"image/small/tlv.jpg",
+      "Large":"image/full/tlv.jpg"
       },
     "AverageRating":4.1
   },
@@ -306,8 +306,8 @@
     "City":"Copenhagen",
     "Country":"Denmark",
     "Images":{
-      "Small":"/small/cph.jpg",
-      "Large":"/full/cph.jpg"
+      "Small":"image/small/cph.jpg",
+      "Large":"image/full/cph.jpg"
       },
     "AverageRating":4.6
   },
@@ -318,8 +318,8 @@
     "City":"Oslo",
     "Country":"Norway",
     "Images":{
-      "Small":"/small/osl.jpg",
-      "Large":"/full/osl.jpg"
+      "Small":"image/small/osl.jpg",
+      "Large":"image/full/osl.jpg"
       },
     "AverageRating":4
   },
@@ -330,8 +330,8 @@
     "City":"Paris",
     "Country":"France",
     "Images":{
-      "Small":"/small/cdg.jpg",
-      "Large":"/full/cdg.jpg"
+      "Small":"image/small/cdg.jpg",
+      "Large":"image/full/cdg.jpg"
       },
     "AverageRating":5
   },
@@ -342,8 +342,8 @@
     "City":"Helsinki",
     "Country":"Finland",
     "Images":{
-      "Small":"/small/hel.jpg",
-      "Large":"/full/hel.jpg"
+      "Small":"image/small/hel.jpg",
+      "Large":"image/full/hel.jpg"
       },
     "AverageRating":4.7
   },
@@ -354,8 +354,8 @@
     "City":"Sydney",
     "Country":"Australia",
     "Images":{
-      "Small":"/small/syd.jpg",
-      "Large":"/full/syd.jpg"
+      "Small":"image/small/syd.jpg",
+      "Large":"image/full/syd.jpg"
       },
     "AverageRating":4.6
   },
@@ -366,8 +366,8 @@
     "City":"Christchurch",
     "Country":"New Zealand",
     "Images":{
-      "Small":"/small/chc.jpg",
-      "Large":"/full/chc.jpg"
+      "Small":"image/small/chc.jpg",
+      "Large":"image/full/chc.jpg"
       },
     "AverageRating":4.1
   },
@@ -378,8 +378,8 @@
     "City":"Nandi",
     "Country":"Fiji",
     "Images":{
-      "Small":"/small/nan.jpg",
-      "Large":"/full/nan.jpg"
+      "Small":"image/small/nan.jpg",
+      "Large":"image/full/nan.jpg"
       },
     "AverageRating":4
   },
@@ -390,8 +390,8 @@
     "City":"Los Angeles",
     "Country":"United States",
     "Images":{
-      "Small":"/small/lax.jpg",
-      "Large":"/full/lax.jpg"
+      "Small":"image/small/lax.jpg",
+      "Large":"image/full/lax.jpg"
       },
     "AverageRating":4.8
     }
