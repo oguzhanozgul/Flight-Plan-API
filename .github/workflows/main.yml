@@ -76,6 +76,6 @@ jobs:
             echo "Stopping container if already running"
             docker stop flight-plan-api
             echo "Starting container"
-            docker run --rm -d --publish 5555:5000 --name flight-plan-api ghcr.io/oguzhanozgul/flight-plan-api:main
+            docker run --rm -d --restart unless-stopped --publish 5555:5000 --name flight-plan-api ghcr.io/oguzhanozgul/flight-plan-api:main
             echo "Deleting image"
             docker rmi ghcr.io/oguzhanozgul/flight-plan-api:main -f
